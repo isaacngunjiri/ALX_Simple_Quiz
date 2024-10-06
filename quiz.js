@@ -4,10 +4,7 @@ function checkAnswer() {
 
     const feedbackElement = document.getElementById('feedback');
 
-    if (userAnswer) {
-        const userAnswerValue = userAnswer.value;
-
-        if (userAnswerValue === correctAnswer) {
+if (userAnswerValue === correctAnswer) {
             feedbackElement.textContent = "Correct! Well done.";
         } else {
             feedbackElement.textContent = "That's incorrect. Try again!";
